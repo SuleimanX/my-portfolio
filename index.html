@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mediaqueries.css">
+</head>
+<body>
+    <script src="script.js"></script>
+    <nav id="desktop-nav">
+        <div class="button">
+            <span class="actual-text">&nbsp;Ekessa Suleiman Jeanmarie&nbsp;</span>
+            <span aria-hidden="true" class="hover-text">&nbsp;Ekessa Suleiman Jeanmarie&nbsp;</span>
+        </div>
+        <div>
+            <ul class="nav-links">
+                <li><a href="#Profile">Profile</a></li>
+                <li><a href="#About">About</a></li>
+                <li><a href="#Experience">Experience</a></li>
+                <li><a href="#Projects">Projects</a></li>
+                <li><a href="#Contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    
+    <div id="hamburger-nav">
+        <div class="logo">Ekessa Suleiman Jeanmarie</div>
+        <div class="hamburger-menu">
+            <div class="hamburger-icon" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="menu-links">
+                <li><a href="#About" onclick="toggleMenu()">About</a></li>
+                <li><a href="#Home" onclick="toggleMenu()">Home</a></li>
+                <li><a href="#Projects" onclick="toggleMenu()">Projects</a></li>
+                <li><a href="#Contact" onclick="toggleMenu()">Contact</a></li>
+            </div>
+        </div>
+    </div>
+
+<!--------------------THIS IS A SECTION------------------------------------->
+    <section id="profile">
+        <div class="sect-container">
+        <div class="sect-pic-container">
+            <img src="assets/riley.jpeg" alt="Animmated picture">
+        </div>
+        <div class="sect-text">
+            <p class="sect-text-p1">Hello I am</p>
+            <h1 class="title1">EKESSA SULEIMAN</h1>
+            <p class="sect-text-p2">Full stack Developer</p>
+            <div class="btn-container">
+                <button class="btn btn-color-2" onclick="window.open('assets/CV.pdf')">Download CV</button>
+                <!----xxxxxxxxxxxx-BUTTON CONTACT---xxxxxxxxxxx----------->
+                <button class="btn btn-color-3" onclick="location.href='#Contact'">Contact Info</button>
+            </div>
+            <div id="social-container">
+                <img src="assets/linkedin.png" 
+                alt="My linkedin profile" 
+                class="icon" 
+                onclick="location.href='https://www.linkedin.com/in/jeanmarie-glenn-538aa5263/'">
+                
+                <img src="assets/github.png" 
+                alt="My github profile" 
+                class="icon" 
+                onclick="location.href='https://github.com/SuleimanX'">
+    
+            </div>
+        </div>
+        </div>
+    </section>
+
+<!----------------------------------ABOUT------------------------------------------------------>
+
+    <section id="About">
+        <p class="sect--text-p1">Get To Know More</p>
+        <h1 class="title">About Me</h1>
+        <div class="sect-container">
+            <div class="sect-pic-container">
+                <img src="assets/fro.jpeg" alt="profile picture" class="about-pic">
+            </div>
+            <div class="about-details-container">
+                <div class="about-containers">
+                    <div class="details-container">
+                        <img src="assets/experience.png" alt="experience icon" class="icon">
+                        <h3>Experience</h3>
+                        <p>6+ months Fullstack Developer</p>
+                    </div>
+                    
+                    <div class="details-container">
+                        <img src="assets/education.png" alt="education icon" class="icon"> 
+                        <h3>Education</h3>
+                        <p>B.Sc. Electrical and Electronics Eng.</p>
+                    </div>
+                </div>
+                <div class="text-container">
+                    <p>
+                        I am grateful to Power Learn Project for this opportunity to further develop my career in Software Development. I believe that this is a diverse field in which we can all fit and share our ideas together in helping each other grow and thrive.
+                    </p>
+                </div>    
+            </div>
+        </div>
+        <img src="assets/arrow.png" alt="arrow" class="arrow icon" onclick="location.href='#Experience'">
+    </section>
+
+<!-----------------EXPERIENCES------------------------------------------------------------------------>    
+
+    <section id="Experience">
+        <p class="sect--text-p1">Explore my</p>
+        <h1 class="title">Experience</h1>
+        <div class="sect-container">
+            <div class="experience-details-container">
+                <div class="about-containers">
+                    <div class="details-container">
+                        <h2 class="experience-sub-title">Frontend Development</h2>
+                        <div class="article-container">
+                            <article>
+                                <img src="assets/checkmark.png" alt="experience icon" class="icon">
+                                <div>
+                                    <h3>HTML</h3>
+                                    <p>experienced</p>
+                                </div>
+                            </article>
+                            <article>
+                                <img src="assets/checkmark.png" alt="experience icon" class="icon">
+                                <div>
+                                    <h3>CSS</h3>
+                                    <p>experienced</p>
+                                </div>
+                            </article>
+                            <article>
+                                <img src="assets/checkmark.png" alt="experience icon" class="icon">
+                                <div>
+                                    <h3>PYTHON</h3>
+                                    <p>experienced</p>
+                                </div>
+                            </article>
+                            <article>
+                                <img src="assets/checkmark.png" alt="experience icon" class="icon">
+                                <div>
+                                    <h3>DART &amp; FLUTTER</h3>
+                                    <p>intermediate</p>
+                                </div>
+                            </article>
+                            <article>
+                                <img src="assets/checkmark.png" alt="experience icon" class="icon">
+                                <div>
+                                    <h3>DATABASE MGT</h3>
+                                    <p>beginner</p>
+                                </div>
+                            </article>
+                            <article>
+                                <img src="assets/checkmark.png" alt="experience icon" class="icon">
+                                <div>
+                                    <h3>JAVA SCRIPT</h3>
+                                    <p>basic</p>
+                                </div>
+                            </article>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-containers">
+                    <div class="details-container">
+                        <h2 class="experience-sub-title">Backend Development</h2>
+                        <div class="article-container">
+                            <article>
+                                <img src="assets/checkmark.png" alt="experience icon" class="icon">
+                                <div>
+                                    <h3>MySQL</h3>
+                                    <p>beginner</p>
+                                </div>
+                            </article>
+                            <article>
+                                <img src="assets/checkmark.png" alt="experience icon" class="icon">
+                                <div>
+                                    <h3>PYTHON</h3>
+                                    <p>experienced</p>
+                                </div>
+                            </article>
+                            <article>
+                                <img src="assets/checkmark.png" alt="experience icon" class="icon">
+                                <div>
+                                    <h3>POSTGRESQL</h3>
+                                    <p>beginner</p>
+                                </div>
+                            </article>
+                            <article>
+                                <img src="assets/checkmark.png" alt="experience icon" class="icon">
+                                <div>
+                                    <h3>DART with FLUTTER</h3>
+                                    <p>intermediate</p>
+                                </div>
+                            </article>
+                            <article>
+                                <img src="assets/checkmark.png" alt="experience icon" class="icon">
+                                <div>
+                                    <h3>GIT &amp; GITHUB</h3>
+                                    <p>experienced</p>
+                                </div>
+                            </article>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <img src="assets/arrow.png" alt="arrow" class="arrow icon" onclick="location.href='#Projects'">
+    </section>
+
+<!-----------------   PROJECTS   ------------------------------------------------------------------------>    
+
+<section id="Projects">
+    <p class="sect--text-p1">Here are some of my recent</p>
+    <h1 class="title">Projects</h1>
+    <div class="sect-container">
+        <div class="experience---details-container">
+            <div class="about--containers">
+                <div class="details--container color-container">
+                    <div class="article-container">
+                        <img src="assets/cmg.jpeg" alt="project 1" class="project img">
+                    </div>
+                    <h2 class="experience-sub-title project-title">Project One</h2>
+                    <div class="btn-container">
+                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com'">
+                            github
+                        </button>
+                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com'">
+                            live demo
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="about--containers">
+                <div class="details--container color-container">
+                    <div class="article-container">
+                        <img src="assets/cmg.jpeg" alt="project 2" class="project img">
+                    </div>
+                    <h2 class="experience-sub-title project-title">Project Two</h2>
+                    <div class="btn-container">
+                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com'">
+                            github
+                        </button>
+                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com'">
+                            live demo
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="about-containers">
+                <div class="details-container color-container">
+                    <div class="article-container">
+                        <img src="assets/cmg.jpeg" alt="project 3" class="project img">
+                    </div>
+                    <h2 class="experience-sub-title project-title">Project Three</h2>
+                    <div class="btn-container">
+                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com'">
+                            github
+                        </button>
+                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com'">
+                            live demo
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <img src="assets/arrow.png" alt="arrow" class="arrow icon" onclick="location.href='#Contact'">
+</section>
+
+
+<!-----------------   CONTACT ME   ------------------------------------------------------------------------>    
+
+<section id="Contact">
+    <p class="sect--text-p1">Get in touch</p>
+    <h1 class="title">Contact Me</h1>
+    <div class="sect-container">
+        <div class="contact-info-upper-container">
+            <div class="contact-info-container">
+                <img src="assets/email.png" 
+                alt="email icon" 
+                class="icon contact-icon email-icon">
+                <p class="text-p"><a href="mailto:jeanmarieglenn66@gmail.com">Email</a></p>
+            </div>
+            <div class="contact-info-container">
+                <img src="assets/linkedin.png" 
+                alt="linkedin icon" 
+                class="icon contact-icon">
+                <p class="text-p"><a href="https://www.linkedin.com/in/jeanmarie-glenn-538aa5263/">LinkedIn</a></p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<footer>
+    <nav>
+        <div class="nav-links-container">
+            <ul class="nav-links">
+                <li><a href="#Profile">Profile</a></li>
+                <li><a href="#About">About</a></li>
+                <li><a href="#Experience">Experience</a></li>
+                <li><a href="#Projects">Projects</a></li>
+                <li><a href="#Contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <p>Copyright &#169; 2024 Ekessa Suleiman Jeanmarie. All Rights Reserved.</p>
+</footer>
+
+
+
+
+
+</body>
+</html>
